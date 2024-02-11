@@ -5,7 +5,7 @@ export const metadate = {
     description: "Discover & Share AI Prompts"
 }
 
-const RootLayout = () => {
+const RootLayout = ({ children }) => {
   return (
     <html lang="en">
         <body>
